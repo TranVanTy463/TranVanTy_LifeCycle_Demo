@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TranVanTy_LifeCycle_Demo</string>
+    <string name="life_cycle_method">Life Cycle Method</string>
+</resources>
