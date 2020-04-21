@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("LifeCycle","onDestroy called");
         Toast.makeText(getApplicationContext(),"Destroy ", Toast.LENGTH_SHORT).show();
     }
-
+ SimpleDateFormat gio = new SimpleDateFormat("HHmmss");
+    String currenttime = gio.format(new Date());
 
 }
