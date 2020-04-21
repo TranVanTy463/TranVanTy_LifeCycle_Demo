@@ -1,3 +1,7 @@
-Câu 4 : onCreate , onStart, onResume, onPause, onStop, onDestroy.
-Câu 5  onCreate , onStart, onResume, onPause, onStop, onDestroy.
+Câu 4 : Khi mở để ứng dụng ở trạng thái đang chạy thì có cắc phương thức : onCreate , onStart, onResume
+ - Bấm back : onPause, onStop, onDestroy.
+ - mở lại ứng dụng : onCreate , onStart, onResume
+Câu 5 : Khi mở để ứng dụng ở trạng thái đang chạy thì có cắc phương thức : onCreate , onStart, onResume
+- Bấm home : onPause, onStop
+-- mở lại ứng dụng : onStart, onResume
 Câu 6 : onPause vì onPause sẽ đưa người dùng quay trở lại Activity rồi sau đó onResume và mở lại ứng dụng
