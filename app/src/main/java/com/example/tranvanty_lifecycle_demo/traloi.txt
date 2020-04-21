@@ -1,0 +1,3 @@
+Câu 4 : onCreate , onStart, onResume, onPause, onStop, onDestroy.
+Câu 5  onCreate , onStart, onResume, onPause, onStop, onDestroy.
+Câu 6 : onPause vì onPause sẽ đưa người dùng quay trở lại Activity rồi sau đó onResume và mở lại ứng dụng
